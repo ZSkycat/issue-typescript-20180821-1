@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        // base
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        // feature
+        "declaration": true,
+        // type check
+        "strict": true,
+        "types": [],
+    },
+    "include": [
+        "./src/**/*"
+    ],
+}
